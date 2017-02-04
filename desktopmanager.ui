@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>DesktopManagerClass</class>
+ <widget class="QWidget" name="DesktopManagerClass" >
+  <property name="objectName" >
+   <string notr="true">DesktopManagerClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>DesktopManager</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="desktopmanager.qrc"/>
+ </resources>
+ <connections/>
+</UI>
