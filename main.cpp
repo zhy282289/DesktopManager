@@ -15,7 +15,8 @@ int main(int argc, char *argv[])
 	}
 	
 
-
+	auto h1 = gFindDesktopHwnd();
+	HWND h2 = (HWND)a.desktop()->winId();
 
 	return a.exec();
 }
